@@ -3,7 +3,8 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -15,7 +16,8 @@ html, body {
 
 body {
   padding: 20px;
-  overflow-y: auto; /* Enables scroll when needed */
+  overflow-y: auto;
+  /* Enables scroll when needed */
 }
 
 .container {
@@ -105,7 +107,9 @@ button[type="submit"]:hover {
 }
 
 @media (max-height: 700px) {
-  html, body {
+
+  html,
+  body {
     align-items: flex-start;
   }
 }
